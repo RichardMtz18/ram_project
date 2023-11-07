@@ -4,7 +4,7 @@ import { Character } from "./Character";
 function NavPage({ page, setPage }) {
   return (
     <header className="grid grid-cols-2 justify-center items-center" style={{ zIndex: 1 }}>
-      <p className="text-white">Page: {page}</p>
+      <p className="badge badge-secondary">Page: {page}</p>
 
       <button 
         className="btn btn-active btn-secondary"
